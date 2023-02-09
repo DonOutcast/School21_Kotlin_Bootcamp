@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="NumSenseless"
+        android:textColor="@color/purple_500"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Calculating Things You Don't Need to Know"
+        android:textColor="@color/purple_500"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView" />
+
+    <Button
+        android:id="@+id/circlesButton"
+        android:layout_width="200dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="40dp"
+        android:text="Circles"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+    <Button
+        android:id="@+id/primesButton"
+        android:layout_width="200dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="20dp"
+        android:text="Primes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/circlesButton" />
+
+    <Button
+        android:id="@+id/thermometerButton"
+        android:layout_width="200dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="20dp"
+        android:text="Thermometer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/primesButton" />
+
+    <Button
+        android:id="@+id/logsButton"
+        android:layout_width="200dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="20dp"
+        android:text="Num-to-Speech"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/thermometerButton" />
+
+    <Button
+        android:id="@+id/arithmeticButton"
+        android:layout_width="200dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="20dp"
+        android:text="ARITHMETICS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logsButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
